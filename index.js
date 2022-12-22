@@ -1,5 +1,5 @@
 'use strict';
 
-const { start } = require('./app');
+const { start } = require('./src/app');
 
 start();

@@ -3,12 +3,15 @@
 const express = require('express');
 const notFound = require('./error-handlers/404');
 const errorHandler = require('./error-handlers/500');
+const cors = require('cors');
 const PORT = process.env.PORT || 3002;
 
 const app = express();
 
+app.use(cors());
+
 app.get('/', (req, res, next) => {
-    res.status(200).send('Hello World');
+    res.status(200).send('Hello World!!!!');
 });
 
 app.get('/bad', (req, res, next) => {
