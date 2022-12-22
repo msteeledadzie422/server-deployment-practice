@@ -24,9 +24,3 @@ function start(){
 }
 
 module.exports = { app, start };
-
-function greet(name){
-    return `Hello ${name}!`;
-}
-
-greet('Lucky');

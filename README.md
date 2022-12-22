@@ -10,6 +10,9 @@ Today, you’ll create and deploy a web server using CI and CD and get used to t
 
 ### Links and Resources
 
+Deployed Production Branch: https://server-practice-dev.herokuapp.com/
+Deployed Main Branch: https://server-practice-main.herokuapp.com/
+
 ### Setup
 
 - npm init -y
